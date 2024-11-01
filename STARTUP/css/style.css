@@ -1,0 +1,56 @@
+
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+
+body {
+  background-color: #f0f0f0; 
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 20px;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center; 
+}
+
+
+.banner {
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 40px 20px; 
+  text-align: center;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+.card {
+  background-color: white; 
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  padding: 10px;
+  margin: 10px; 
+  text-align: center;
+  flex-basis: 250px;
+  flex-grow: 1;
+}
+
+.card img {
+  width: 100%; 
+  border-radius: 8px 8px 0 0;
+}
+
+a {
+  text-decoration: none;
+}
